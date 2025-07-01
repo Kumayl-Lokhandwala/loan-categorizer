@@ -1,0 +1,515 @@
+[
+  {
+    "category": "Repayment",
+    "subcategory": "Excess debit refund",
+    "description": "This refers to situations where a customer has paid their EMI through one mode (e.g., UPI), but an additional EMI is also debited via auto-debit (NACH), resulting in an excess payment. The customer seeks a refund for the duplicate amount debited.",
+    "examples": [
+      "I paid the EMI via UPI today morning but NACH still deducted another EMI. Please refund.",
+      "My account was debited twice for the same EMI. Need a refund."
+    ]
+  },
+  {
+    "category": "Repayment",
+    "subcategory": "Foreclosure",
+    "description": "The customer wants to close their loan account by paying the entire outstanding principal and interest in a single lump sum, earlier than the scheduled tenure. They may also ask about foreclosure charges or the procedure.",
+    "examples": [
+      "I want to foreclose my loan. Please share the final amount.",
+      "What is the process and charges for closing the loan early?"
+    ]
+  },
+  {
+    "category": "Repayment",
+    "subcategory": "Advance payment",
+    "description": "The customer made a payment before the EMI due date and is either confirming whether it has been adjusted properly or wants it to be applied toward the upcoming installment.",
+    "examples": [
+      "I made an advance EMI payment. Please confirm it's adjusted.",
+      "Paid before due date. Will it reflect for this month's EMI?"
+    ]
+  },
+  {
+    "category": "Repayment",
+    "subcategory": "Payment not reflecting",
+    "description": "Customer has made a payment, but it's not visible in their loan account, dashboard, or statements. The customer is worried the payment may not have been received.",
+    "examples": [
+      "I made payment but it\u2019s not showing on my account.",
+      "Payment is successful from bank side but not updated in your app."
+    ]
+  },
+  {
+    "category": "Repayment",
+    "subcategory": "Due date change request",
+    "description": "Request from a customer to change the EMI due date to a different day of the month, often for convenience or alignment with salary dates.",
+    "examples": [
+      "Can I change my EMI date to the 5th instead of 1st?",
+      "I want my EMI to be deducted after my salary is credited."
+    ]
+  },
+  {
+    "category": "Repayment",
+    "subcategory": "Payment link issues",
+    "description": "Problems related to the EMI payment link such as non-functioning URLs, expired links, or redirection failures during payment.",
+    "examples": [
+      "Payment link not opening.",
+      "I tried to pay but the link is expired or invalid."
+    ]
+  },
+  {
+    "category": "Repayment",
+    "subcategory": "Statement information",
+    "description": "Customer requests for EMI history, outstanding dues, or financial statements such as amortization schedules or repayment summaries.",
+    "examples": [
+      "Please send me a statement of all EMIs paid.",
+      "I want the repayment schedule for my loan."
+    ]
+  },
+  {
+    "category": "Repayment",
+    "subcategory": "Advance payment refund",
+    "description": "Customer made an EMI payment ahead of time but later changed their mind and wants that advance payment refunded.",
+    "examples": [
+      "I paid EMI in advance but want a refund now.",
+      "Please refund the advance amount as I\u2019ve paid again."
+    ]
+  },
+  {
+    "category": "Repayment",
+    "subcategory": "How to pay",
+    "description": "Customer is asking for available payment methods such as UPI, Netbanking, Debit card, or direct link options.",
+    "examples": [
+      "How can I make the EMI payment?",
+      "Is UPI available for loan repayment?"
+    ]
+  },
+  {
+    "category": "Repayment",
+    "subcategory": "Unable to repay",
+    "description": "Customer is unable to make their EMI due to personal, financial, or technical issues and may request help or alternate options.",
+    "examples": [
+      "I lost my job and cannot pay this month\u2019s EMI.",
+      "App not working. Unable to pay EMI today."
+    ]
+  },
+  {
+    "category": "Repayment",
+    "subcategory": "Chargeback",
+    "description": "Customer has initiated or is asking about initiating a chargeback with their bank due to failed service or duplicate debit.",
+    "examples": [
+      "I raised a chargeback because payment was taken twice.",
+      "Bank reversed the EMI. Do I still need to pay?"
+    ]
+  },
+  {
+    "category": "Repayment",
+    "subcategory": "Remove Penalities for payment delay",
+    "description": "Customer requests waiver of late payment charges due to personal or technical reasons, claiming the delay was unintentional or unavoidable.",
+    "examples": [
+      "Please remove penalty charges for this EMI. I paid late due to app issue.",
+      "Waive off the late fee. I had no funds on the due date."
+    ]
+  },
+  {
+    "category": "Account",
+    "subcategory": "Credit report/CIBIL dispute",
+    "description": "The customer finds incorrect or disputed entries on their credit report due to loan reporting errors and wants corrections.",
+    "examples": [
+      "My CIBIL report shows incorrect EMI data. Please update.",
+      "There is a dispute in my credit report because of this loan."
+    ]
+  },
+  {
+    "category": "Account",
+    "subcategory": "No Dues Certificate (NDC)",
+    "description": "Request for an official No Dues Certificate after loan completion or foreclosure confirming no outstanding balance.",
+    "examples": [
+      "Please issue my NOC/NDC as I\u2019ve paid the loan fully.",
+      "I need the No Dues Certificate for my records."
+    ]
+  },
+  {
+    "category": "Account",
+    "subcategory": "Temporary account suspension",
+    "description": "Customer wants to pause or freeze their loan account temporarily, typically due to medical or financial reasons.",
+    "examples": [
+      "Can you suspend my account for 2 months due to health issues?",
+      "Requesting temporary suspension of EMIs."
+    ]
+  },
+  {
+    "category": "Account",
+    "subcategory": "Account closure/deletion",
+    "description": "Customer requests permanent closure or deletion of their loan or app account after fulfilling obligations.",
+    "examples": [
+      "I want to close my loan account permanently.",
+      "Delete my account from your system."
+    ]
+  },
+  {
+    "category": "Account",
+    "subcategory": "Statement of Account (SOA)",
+    "description": "Customer wants a detailed statement of transactions related to their loan, including disbursement and repayment history.",
+    "examples": [
+      "Please provide the Statement of Account for my loan.",
+      "I need complete loan transaction details."
+    ]
+  },
+  {
+    "category": "Account",
+    "subcategory": "Login/access issues",
+    "description": "Customer is unable to log into the app or web portal, often due to password, phone number, or OTP-related issues.",
+    "examples": [
+      "I can\u2019t log into the app. It shows an error.",
+      "Not receiving OTP. Unable to access my account."
+    ]
+  },
+  {
+    "category": "Account",
+    "subcategory": "Profile/information updates",
+    "description": "Customer wants to update personal details such as phone number, email, address, or bank account info.",
+    "examples": [
+      "I want to update my mobile number in your records.",
+      "Change my bank account details for EMI."
+    ]
+  },
+  {
+    "category": "Account",
+    "subcategory": "Document upload problems",
+    "description": "Customer is facing technical issues uploading KYC or other required documents through the app or website.",
+    "examples": [
+      "Document upload fails every time. Please help.",
+      "Unable to upload PAN and Aadhaar."
+    ]
+  },
+  {
+    "category": "Account",
+    "subcategory": "Data Deletion",
+    "description": "Customer is requesting permanent deletion of their personal data from the company's systems for privacy reasons.",
+    "examples": [
+      "Please delete all my personal data from your servers.",
+      "I want to remove my data as per privacy policy."
+    ]
+  },
+  {
+    "category": "Collections",
+    "subcategory": "Harassment complaints",
+    "description": "Customer complains about threatening, repeated, or abusive calls/messages from recovery or collection agents.",
+    "examples": [
+      "I\u2019m receiving harassing calls for EMI. Please stop.",
+      "Agent threatened me over a missed EMI."
+    ]
+  },
+  {
+    "category": "Collections",
+    "subcategory": "Dispute of amount due",
+    "description": "Customer disputes the total overdue amount shown in their account or claims they\u2019ve already paid.",
+    "examples": [
+      "My dashboard shows wrong amount due.",
+      "I already paid, but it shows pending EMI."
+    ]
+  },
+  {
+    "category": "Collections",
+    "subcategory": "Payment extension requests",
+    "description": "Customer requests an extension on due dates or additional time to pay due to financial difficulty.",
+    "examples": [
+      "Can I get 10 extra days to pay the EMI?",
+      "I need a grace period for this month's payment."
+    ]
+  },
+  {
+    "category": "Collections",
+    "subcategory": "Settlement offer negotiations",
+    "description": "Customer wants to negotiate a one-time settlement for reduced repayment instead of paying full dues.",
+    "examples": [
+      "I want to settle my dues with a lump sum.",
+      "Can I get a discount on the total outstanding?"
+    ]
+  },
+  {
+    "category": "Collections",
+    "subcategory": "Legal notice inquiries",
+    "description": "Customer has received or is worried about receiving legal notices regarding unpaid dues and seeks clarification.",
+    "examples": [
+      "I got a legal notice. Please explain the issue.",
+      "Will I face legal action if I miss this EMI?"
+    ]
+  },
+  {
+    "category": "Collections",
+    "subcategory": "Recovery agent behavior",
+    "description": "Complaints regarding inappropriate, aggressive, or unethical behavior by field recovery agents.",
+    "examples": [
+      "Your agent behaved badly and shouted at me.",
+      "Agent came to my house and created a scene."
+    ]
+  },
+  {
+    "category": "Loan rejection",
+    "subcategory": "Application status inquiries",
+    "description": "Customer wants to know the current status of their submitted loan application, whether it's under review, pending, or rejected.",
+    "examples": [
+      "What is the status of my loan application?",
+      "I applied last week but haven't received an update."
+    ]
+  },
+  {
+    "category": "Loan rejection",
+    "subcategory": "Waitlist status",
+    "description": "Customer wants to know if their application is waitlisted and when it might be processed.",
+    "examples": [
+      "Am I on the waitlist for loan approval?",
+      "What does waitlisted mean in my application?"
+    ]
+  },
+  {
+    "category": "Loan rejection",
+    "subcategory": "Rejection reason explanation",
+    "description": "Customer wants a detailed explanation for why their loan was rejected.",
+    "examples": [
+      "Why was my loan application rejected?",
+      "Please tell me the reason for rejection."
+    ]
+  },
+  {
+    "category": "Loan rejection",
+    "subcategory": "Reapplication questions",
+    "description": "Customer wants to know if and when they can reapply after a loan rejection.",
+    "examples": [
+      "Can I reapply for a loan again?",
+      "How long should I wait before reapplying?"
+    ]
+  },
+  {
+    "category": "Loan rejection",
+    "subcategory": "Document verification failure",
+    "description": "Loan application was rejected because of problems with submitted documents like mismatch, unclear scans, or expiry.",
+    "examples": [
+      "My loan was rejected due to document failure.",
+      "Which document caused the rejection?"
+    ]
+  },
+  {
+    "category": "Loan rejection",
+    "subcategory": "Eligibility criteria questions",
+    "description": "Customer wants to understand the income, employment, credit score, or location criteria needed to be eligible for a loan.",
+    "examples": [
+      "What is the minimum salary required for loan?",
+      "Am I eligible for a loan with my credit score?"
+    ]
+  },
+  {
+    "category": "Loan transfer",
+    "subcategory": "Balance transfer process",
+    "description": "Customer wants to transfer their existing loan to another lender and seeks information on the procedure.",
+    "examples": [
+      "How can I transfer my loan to another bank?",
+      "Please explain the balance transfer process."
+    ]
+  },
+  {
+    "category": "Loan transfer",
+    "subcategory": "Transfer status inquiries",
+    "description": "Customer wants to know the current status of their loan transfer request.",
+    "examples": [
+      "What's the status of my loan transfer?",
+      "Has my loan been transferred yet?"
+    ]
+  },
+  {
+    "category": "Loan transfer",
+    "subcategory": "Documentation requirements",
+    "description": "Customer is asking what documents are needed for initiating or completing a loan balance transfer.",
+    "examples": [
+      "What documents do I need for loan transfer?",
+      "Is PAN and NOC enough for transfer?"
+    ]
+  },
+  {
+    "category": "Loan transfer",
+    "subcategory": "Transfer fee questions",
+    "description": "Customer wants to know if there are any charges or fees for transferring their loan to another institution.",
+    "examples": [
+      "Is there any charge for loan transfer?",
+      "How much is the foreclosure and transfer fee?"
+    ]
+  },
+  {
+    "category": "Loan transfer",
+    "subcategory": "Existing loan closure process",
+    "description": "Customer wants to know how to close their current loan as part of a transfer or foreclosure.",
+    "examples": [
+      "How do I close my existing loan before transfer?",
+      "I want to close this loan and move to another lender."
+    ]
+  },
+  {
+    "category": "Mandate",
+    "subcategory": "E-mandate registration",
+    "description": "Customer wants to set up automatic EMI payments via e-mandate/NACH from their bank account.",
+    "examples": [
+      "How to register for auto-debit EMI?",
+      "Please help me set up NACH mandate."
+    ]
+  },
+  {
+    "category": "Mandate",
+    "subcategory": "Mandate failure",
+    "description": "Auto-debit failed due to technical issues or registration failure. Customer is seeking help or retry options.",
+    "examples": [
+      "My auto-debit failed. EMI was not deducted.",
+      "Mandate setup failed. Please assist."
+    ]
+  },
+  {
+    "category": "Mandate",
+    "subcategory": "Mandate modification",
+    "description": "Customer wants to update or change their mandate details such as bank account or EMI amount.",
+    "examples": [
+      "I want to change the account linked to mandate.",
+      "Can I modify my auto-debit instructions?"
+    ]
+  },
+  {
+    "category": "Mandate",
+    "subcategory": "Mandate cancellation",
+    "description": "Request to stop or cancel auto-debit instructions permanently or temporarily.",
+    "examples": [
+      "Cancel my mandate registration.",
+      "I want to disable auto-debit for now."
+    ]
+  },
+  {
+    "category": "Mandate",
+    "subcategory": "NACH/E-NACH setup issues",
+    "description": "Customer faces problems in completing NACH or eNACH setup for EMI payments.",
+    "examples": [
+      "I am not able to set up NACH from my bank.",
+      "eNACH link not working during registration."
+    ]
+  },
+  {
+    "category": "Mandate",
+    "subcategory": "Auto-debit authorization",
+    "description": "General queries about EMI auto-debit process, consent status, or verification of authorization.",
+    "examples": [
+      "Have I authorized auto-debit?",
+      "Is auto-debit active on my account?"
+    ]
+  },
+  {
+    "category": "VKYC",
+    "subcategory": "Scheduling issues",
+    "description": "Customer is unable to schedule a VKYC session or wants to change the scheduled time.",
+    "examples": [
+      "I missed my VKYC slot. Please reschedule.",
+      "Unable to book time for VKYC."
+    ]
+  },
+  {
+    "category": "VKYC",
+    "subcategory": "Technical problems",
+    "description": "Customer is facing issues such as poor video quality, disconnections, or device errors during VKYC.",
+    "examples": [
+      "Camera not working during VKYC.",
+      "I was disconnected during the KYC call."
+    ]
+  },
+  {
+    "category": "VKYC",
+    "subcategory": "Document verification",
+    "description": "Problems during VKYC session where documents are unclear, expired, or not accepted.",
+    "examples": [
+      "My Aadhaar wasn\u2019t accepted during VKYC.",
+      "Documents not verified in VKYC session."
+    ]
+  },
+  {
+    "category": "VKYC",
+    "subcategory": "VKYC rejection reasons",
+    "description": "Customer wants to understand why their VKYC was rejected or failed.",
+    "examples": [
+      "Why did my VKYC get rejected?",
+      "Reason for failure of VKYC?"
+    ]
+  },
+  {
+    "category": "VKYC",
+    "subcategory": "Re-scheduling requests",
+    "description": "Customer wants to change or re-book their VKYC appointment.",
+    "examples": [
+      "Please help me reschedule my VKYC.",
+      "I missed my call. Want to try again."
+    ]
+  },
+  {
+    "category": "VKYC",
+    "subcategory": "Identity verification concerns",
+    "description": "Customer is unsure if their identity has been correctly verified via VKYC or has follow-up concerns.",
+    "examples": [
+      "Is my VKYC verification complete?",
+      "My name was spelled wrong in VKYC. Please correct."
+    ]
+  },
+  {
+    "category": "Others",
+    "subcategory": "Product information",
+    "description": "Customer wants details about the loan products available, eligibility, or features.",
+    "examples": [
+      "What types of loans do you offer?",
+      "Is there a personal loan for salaried employees?"
+    ]
+  },
+  {
+    "category": "Others",
+    "subcategory": "Interest rate queries",
+    "description": "Questions about applicable interest rates, floating/fixed rates, or rate changes.",
+    "examples": [
+      "What is the current interest rate?",
+      "Can I reduce my loan rate?"
+    ]
+  },
+  {
+    "category": "Others",
+    "subcategory": "Promotional offers",
+    "description": "Customer is asking about discounts, cashback, or any ongoing offers on loans.",
+    "examples": [
+      "Do you have any festival offer on loan?",
+      "I saw a discount on your website. Is it still valid?"
+    ]
+  },
+  {
+    "category": "Others",
+    "subcategory": "Technical app/website issues",
+    "description": "Issues while using the mobile app or website such as crashes, slow loading, or unresponsive buttons.",
+    "examples": [
+      "App crashes every time I open it.",
+      "Payment button not responding on website."
+    ]
+  },
+  {
+    "category": "Others",
+    "subcategory": "General feedback",
+    "description": "Customer wants to provide non-critical feedback, reviews, or suggestions for service improvement.",
+    "examples": [
+      "Your support team was very helpful.",
+      "I have a suggestion to improve the app."
+    ]
+  },
+  {
+    "category": "Others",
+    "subcategory": "Partnership inquiries",
+    "description": "External parties (e.g., agents or partners) reaching out for B2B tie-ups, partnerships, or affiliate collaboration.",
+    "examples": [
+      "I want to become your loan distribution partner.",
+      "Do you have a referral or reseller program?"
+    ]
+  },
+  {
+    "category": "Others",
+    "subcategory": "Miscellaneous complaints",
+    "description": "Complaints that don't clearly fall under any specific category or involve multiple overlapping issues.",
+    "examples": [
+      "No one is responding to my email or calls.",
+      "Too many issues in my account. Please call back."
+    ]
+  }
+]
